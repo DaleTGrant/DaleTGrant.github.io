@@ -143,7 +143,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #4acaa8 !important;
+			color: #2a516b !important;
 		}
 
 	strong, b {
@@ -159,7 +159,14 @@ input, select, textarea {
 		margin: 0 0 2.25em 0;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	h2{
+		color: #2a516b;
+		font-weight: 700;
+		line-height: 1em;
+		margin: 0 0 0.5625em 0;
+	}
+
+	h1, h3, h4, h5, h6 {
 		color: #777;
 		font-weight: 700;
 		line-height: 1em;
@@ -1816,7 +1823,7 @@ input, select, textarea {
 	}
 
 		header.major h2 + p {
-			color: #777;
+			color: #2a516b;
 			font-size: 1.75em;
 			font-weight: 700;
 			margin-top: -0.75em;
@@ -1874,7 +1881,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #4acaa8;
+			border-color: #2a516b;
 		}
 
 	select {
@@ -1979,7 +1986,7 @@ input, select, textarea {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #4acaa8;
+			border-color: #2a516b;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2648,7 +2655,7 @@ input, select, textarea {
 		input[type="reset"].primary,
 		input[type="button"].primary,
 		.button.primary {
-			background-color: #4acaa8;
+			background-color: #2a516b;
 			color: #ffffff !important;
 		}
 
@@ -2730,9 +2737,8 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		/* background: #4acaa8; */
 		background: #2a516b;
-		color: #d2f2e9;
+		color: #ebebeb;
 		height: 100%;
 		overflow-y: auto;
 		position: fixed;
@@ -2751,11 +2757,11 @@ input, select, textarea {
 			}
 
 		#header header p {
-			color: #b7eadc;
+			color: #ebebeb;
 		}
 
 		#header a {
-			color: #d2f2e9;
+			color: #ebebeb;
 		}
 
 			#header a:hover {
@@ -2782,7 +2788,7 @@ input, select, textarea {
 			}
 
 			#header > header p {
-				color: #d2f2e9;
+				color: #ebebeb;
 				font-style: italic;
 				margin: 1em 0 0 0;
 			}
@@ -2803,7 +2809,7 @@ input, select, textarea {
 			}
 
 				#header > footer .icons li a {
-					color: #b7eadc;
+					color: #ebebeb;
 				}
 
 		#header > nav {
@@ -2830,7 +2836,7 @@ input, select, textarea {
 						-webkit-transition: none;
 						-ms-transition: none;
 						transition: none;
-						border: 0;
+						border: 2a516b
 						color: #ffffff !important;
 						display: block;
 						padding: 0.75em 0;
@@ -3107,7 +3113,7 @@ input, select, textarea {
 					}
 
 					#titleBar .toggle:before {
-						background: #4acaa8;
+						background: #2a516b;
 						color: #ffffff;
 						content: '\f0c9';
 						display: block;
